@@ -12,7 +12,7 @@ const Section5 = () => {
         </div>
         <div className="w-1/2 px-20 max-lg:w-full max-lg:py-10 ">
           <span>"</span>
-          <p className="text-3xl font-semibold">
+          <p className="text-3xl font-semibold max-md:xl">
             Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez
             foi intensificar o meu amor por esta atividade. Recomendo à todos
             que amo.{" "}
