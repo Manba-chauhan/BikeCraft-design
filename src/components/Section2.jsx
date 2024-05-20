@@ -6,7 +6,7 @@ import bicycle from '../assets/img/bicycle.png'
 const Section2 = () => {
   return (
     <div className="max-w-[1600px] mt-44 flex flex-col  max-md:mt-20 max-md:justify-center ">
-      <div className=" ml-40 max-md:ml-0">
+      <div className=" ml-40 max-md:ml-5">
         <h1 className="text-4xl text-black font-bold">ESCOLHA A SUA.</h1>
       </div>
       <div className="flex  justify-center items-center space-x-10 max-md:flex-col 
