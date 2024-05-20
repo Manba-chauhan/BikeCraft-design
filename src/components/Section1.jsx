@@ -8,7 +8,7 @@ const Section1 = () => {
       <div className="flex justify-center items-center max-md:flex-col">
         <div className="flex-1">
           <div className=" px-28  max-md:p-5 ">
-            <h1 className="text-5xl font-bold text-white p-2 max-sm:text-3xlmax-md:p-0 ">
+            <h1 className="text-5xl font-bold text-white p-2 max-sm:text-3xl max-md:p-0 ">
               bicicletas feitas sob medida.
             </h1>
             <p className="text-gray-400 text-light w-10/12 px-2 py-4 max-md:w-full max-sm:w-full max-md:px-0">
