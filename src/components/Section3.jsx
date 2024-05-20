@@ -54,7 +54,7 @@ const Section3 = () => {
           <img
             src={bigimg}
             alt=""
-            className=" relative -top-20 w-[460px] h-[1120px]  max-lg:h-[460px]
+            className=" relative -top-20 w-[460px] h-[1120px]  max-lg:h-[460px] max-md:w-[350px]
           object-cover"
           />
         </div>
