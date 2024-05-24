@@ -12,12 +12,12 @@ const Header = () => {
           <ul className="flex space-x-8">
             {" "}
             <li className="text-white text-lg  font-medium hover:text-yellow-500">
-              <a href="/" className="">
+              <Link to="/bicicletas" className="">
                 Bicicletas
-              </a>
+              </Link>
             </li>
             <li className="text-white text-lg  font-medium hover:text-yellow-500">
-              <a href="/" className="">
+              <a href="/seguros" className="">
                 Seguros
               </a>
             </li>
