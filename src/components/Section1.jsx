@@ -21,12 +21,8 @@ const Section1 = () => {
         </div>
         <div className="flex-1">
           <div className="max-w-[640px] max-h-[800px] max-md:max-h-auto ">
-            <div className="w-[640px] h-[800px]  max-lg:w-[350px] max-lg:h-[500px]">
-              <img
-                src={bicycle}
-                alt="imges"
-                className="w-full h-full object-cover"
-              />
+            <div className="w-[640px]h-[800px]  object-cover  max-lg:max-w-[640px] max-lg:max-h-[500px]">
+              <img src={bicycle} alt="imges" className="w-full h-full" />
             </div>
           </div>
         </div>
