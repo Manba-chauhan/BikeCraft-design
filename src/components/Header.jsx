@@ -31,14 +31,14 @@ const Header = () => {
               </Link>
             </li>
             <li className="text-white text-lg  font-medium hover:text-yellow-500">
-              <a href="/seguros" className="">
+              <Link to="/seguros" className="">
                 Seguros
-              </a>
+              </Link>
             </li>
             <li className="text-white text-lg  font-medium hover:text-yellow-500">
-              <a href="/contact" className="">
+              <Link to="/contact" className="">
                 Contato
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -72,14 +72,14 @@ const Header = () => {
               </Link>
             </li>
             <li className="text-lg font-medium hover:text-yellow-500">
-              <a href="/seguros" onClick={closeMenu}>
+              <Link to="/seguros" onClick={closeMenu}>
                 Seguros
-              </a>
+              </Link>
             </li>
             <li className="text-lg font-medium hover:text-yellow-500">
-              <a href="/contact" onClick={closeMenu}>
+              <Link to="/contact" onClick={closeMenu}>
                 Contato
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 const CardImage = (props) => {
   return (
     <div className="max-w-[480px] max-h-[608px] flex flex-col mt-10 ">
-      <div className="max-w-[400px] max-h-[520px] object-cover  max-md:max-w-[300px] max-2xl:max-w-[350px] max-2xl:max-h-[400px]">
+      <div className="w-[400px] h-[520px] object-cover  max-md:w-[300px]  max-md:h-[360px] max-2xl:w-[300px] max-2xl:h-[300px]">
         <img
           src={props.img}
           alt=""
