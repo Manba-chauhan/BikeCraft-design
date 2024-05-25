@@ -12,6 +12,11 @@ const Header = () => {
           <ul className="flex space-x-8">
             {" "}
             <li className="text-white text-lg  font-medium hover:text-yellow-500">
+              <Link to="/" className="">
+                Home
+              </Link>
+            </li>
+            <li className="text-white text-lg  font-medium hover:text-yellow-500">
               <Link to="/bicicletas" className="">
                 Bicicletas
               </Link>
@@ -29,7 +34,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="sm:hidden">
-          <span className='text-white font-meduim text-lg'>
+          <span className="text-white font-meduim text-lg">
             {" "}
             <i class="fa-solid fa-bars"></i>
           </span>
