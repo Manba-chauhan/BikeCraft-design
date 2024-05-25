@@ -22,7 +22,7 @@ const Header = () => {
               </a>
             </li>
             <li className="text-white text-lg  font-medium hover:text-yellow-500">
-              <a href="/" className="">
+              <a href="/contact" className="">
                 Contato
               </a>
             </li>
